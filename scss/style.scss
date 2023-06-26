@@ -1,0 +1,100 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.games-content {
+  width: 450px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 60px auto 0 auto;
+
+  div {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .div1 {
+    border: none;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+  }
+
+  .div2 {
+    border: none;
+    border-bottom: 5px solid #fff;
+  }
+
+  .div3 {
+    border: none;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
+  }
+
+  .div4 {
+    border: none;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+  }
+
+  .div5 {
+    border: none;
+    border-bottom: 5px solid #fff;
+  }
+
+  .div6 {
+    border: none;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
+  }
+
+  .div7 {
+    border: none;
+    border-right: 5px solid #fff;
+  }
+
+  .div9 {
+    border: none;
+    border-left: 5px solid #fff;
+  }
+}
+
+.report {
+  width: 400px;
+  margin: 50px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.418);
+
+  div {
+    text-align: center;
+
+  }
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.player1 {
+  color: #fff;
+}
+
+.opacity-1 {
+  color: #fff;
+}
+.opacity-06 {
+  color: #ffffff59;
+}
+
+
+
+span {
+  font-size: 30px;
+  font-weight: 500;
+}
